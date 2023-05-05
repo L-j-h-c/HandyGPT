@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB1DA9C82A022F7B00528C9A /* HandyGPTApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1DA9C72A022F7B00528C9A /* HandyGPTApp.swift */; };
+		EB1DA9CA2A022F7B00528C9A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1DA9C92A022F7B00528C9A /* ContentView.swift */; };
+		EB1DA9CC2A022F7C00528C9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB1DA9CB2A022F7C00528C9A /* Assets.xcassets */; };
+		EB1DA9CF2A022F7C00528C9A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB1DA9CE2A022F7C00528C9A /* Preview Assets.xcassets */; };
+		EB1DA9D52A022F7C00528C9A /* HandyGPT Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = EB1DA9D42A022F7C00528C9A /* HandyGPT Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EB1DA9DA2A022F7C00528C9A /* HandyGPTApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1DA9D92A022F7C00528C9A /* HandyGPTApp.swift */; };
+		EB1DA9DC2A022F7C00528C9A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1DA9DB2A022F7C00528C9A /* ContentView.swift */; };
+		EB1DA9DE2A022F7D00528C9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB1DA9DD2A022F7D00528C9A /* Assets.xcassets */; };
+		EB1DA9E12A022F7D00528C9A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB1DA9E02A022F7D00528C9A /* Preview Assets.xcassets */; };
+		EB1DA9ED2A02378E00528C9A /* ChatBot.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1DA9EC2A02378E00528C9A /* ChatBot.swift */; };
+		EB1DA9EF2A02379A00528C9A /* config.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1DA9EE2A02379A00528C9A /* config.swift */; };
+		EB3218D52A056A0A0048A864 /* DefaultBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3218D42A056A0A0048A864 /* DefaultBackground.swift */; };
+		EB6D11CB2A057731007CEA16 /* String+DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6D11CA2A057731007CEA16 /* String+DateFormatter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB1DA9D62A022F7C00528C9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB1DA9BC2A022F7B00528C9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB1DA9D32A022F7C00528C9A;
+			remoteInfo = "HandyGPT Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EB1DA9E72A022F7D00528C9A /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				EB1DA9D52A022F7C00528C9A /* HandyGPT Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EB1DA9C42A022F7B00528C9A /* HandyGPT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HandyGPT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB1DA9C72A022F7B00528C9A /* HandyGPTApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandyGPTApp.swift; sourceTree = "<group>"; };
+		EB1DA9C92A022F7B00528C9A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EB1DA9CB2A022F7C00528C9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB1DA9CE2A022F7C00528C9A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EB1DA9D42A022F7C00528C9A /* HandyGPT Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HandyGPT Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB1DA9D92A022F7C00528C9A /* HandyGPTApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandyGPTApp.swift; sourceTree = "<group>"; };
+		EB1DA9DB2A022F7C00528C9A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EB1DA9DD2A022F7D00528C9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB1DA9E02A022F7D00528C9A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EB1DA9EC2A02378E00528C9A /* ChatBot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBot.swift; sourceTree = "<group>"; };
+		EB1DA9EE2A02379A00528C9A /* config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = config.swift; sourceTree = "<group>"; };
+		EB1DA9F02A023F1D00528C9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		EB3218D42A056A0A0048A864 /* DefaultBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultBackground.swift; sourceTree = "<group>"; };
+		EB6D11CA2A057731007CEA16 /* String+DateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+DateFormatter.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB1DA9C12A022F7B00528C9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB1DA9D12A022F7C00528C9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB1DA9BB2A022F7B00528C9A = {
+			isa = PBXGroup;
+			children = (
+				EB1DA9C62A022F7B00528C9A /* HandyGPT */,
+				EB1DA9D82A022F7C00528C9A /* HandyGPT Watch App */,
+				EB1DA9C52A022F7B00528C9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB1DA9C52A022F7B00528C9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB1DA9C42A022F7B00528C9A /* HandyGPT.app */,
+				EB1DA9D42A022F7C00528C9A /* HandyGPT Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB1DA9C62A022F7B00528C9A /* HandyGPT */ = {
+			isa = PBXGroup;
+			children = (
+				EB1DA9F02A023F1D00528C9A /* Info.plist */,
+				EB1DA9C72A022F7B00528C9A /* HandyGPTApp.swift */,
+				EB1DA9C92A022F7B00528C9A /* ContentView.swift */,
+				EB1DA9CB2A022F7C00528C9A /* Assets.xcassets */,
+				EB1DA9CD2A022F7C00528C9A /* Preview Content */,
+			);
+			path = HandyGPT;
+			sourceTree = "<group>";
+		};
+		EB1DA9CD2A022F7C00528C9A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EB1DA9CE2A022F7C00528C9A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EB1DA9D82A022F7C00528C9A /* HandyGPT Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				EB6D11C92A057722007CEA16 /* Extensions */,
+				EB3218D32A056A010048A864 /* Modifier */,
+				EB1DA9D92A022F7C00528C9A /* HandyGPTApp.swift */,
+				EB1DA9DB2A022F7C00528C9A /* ContentView.swift */,
+				EB1DA9EB2A02377800528C9A /* GPT */,
+				EB1DA9DD2A022F7D00528C9A /* Assets.xcassets */,
+				EB1DA9DF2A022F7D00528C9A /* Preview Content */,
+			);
+			path = "HandyGPT Watch App";
+			sourceTree = "<group>";
+		};
+		EB1DA9DF2A022F7D00528C9A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EB1DA9E02A022F7D00528C9A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EB1DA9EB2A02377800528C9A /* GPT */ = {
+			isa = PBXGroup;
+			children = (
+				EB1DA9EC2A02378E00528C9A /* ChatBot.swift */,
+				EB1DA9EE2A02379A00528C9A /* config.swift */,
+			);
+			path = GPT;
+			sourceTree = "<group>";
+		};
+		EB3218D32A056A010048A864 /* Modifier */ = {
+			isa = PBXGroup;
+			children = (
+				EB3218D42A056A0A0048A864 /* DefaultBackground.swift */,
+			);
+			path = Modifier;
+			sourceTree = "<group>";
+		};
+		EB6D11C92A057722007CEA16 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EB6D11CA2A057731007CEA16 /* String+DateFormatter.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB1DA9C32A022F7B00528C9A /* HandyGPT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB1DA9E82A022F7D00528C9A /* Build configuration list for PBXNativeTarget "HandyGPT" */;
+			buildPhases = (
+				EB1DA9C02A022F7B00528C9A /* Sources */,
+				EB1DA9C12A022F7B00528C9A /* Frameworks */,
+				EB1DA9C22A022F7B00528C9A /* Resources */,
+				EB1DA9E72A022F7D00528C9A /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB1DA9D72A022F7C00528C9A /* PBXTargetDependency */,
+			);
+			name = HandyGPT;
+			productName = HandyGPT;
+			productReference = EB1DA9C42A022F7B00528C9A /* HandyGPT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB1DA9D32A022F7C00528C9A /* HandyGPT Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB1DA9E42A022F7D00528C9A /* Build configuration list for PBXNativeTarget "HandyGPT Watch App" */;
+			buildPhases = (
+				EB1DA9D02A022F7C00528C9A /* Sources */,
+				EB1DA9D12A022F7C00528C9A /* Frameworks */,
+				EB1DA9D22A022F7C00528C9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HandyGPT Watch App";
+			productName = "HandyGPT Watch App";
+			productReference = EB1DA9D42A022F7C00528C9A /* HandyGPT Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB1DA9BC2A022F7B00528C9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					EB1DA9C32A022F7B00528C9A = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					EB1DA9D32A022F7C00528C9A = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = EB1DA9BF2A022F7B00528C9A /* Build configuration list for PBXProject "HandyGPT" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB1DA9BB2A022F7B00528C9A;
+			productRefGroup = EB1DA9C52A022F7B00528C9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB1DA9C32A022F7B00528C9A /* HandyGPT */,
+				EB1DA9D32A022F7C00528C9A /* HandyGPT Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB1DA9C22A022F7B00528C9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB1DA9CF2A022F7C00528C9A /* Preview Assets.xcassets in Resources */,
+				EB1DA9CC2A022F7C00528C9A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB1DA9D22A022F7C00528C9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB1DA9E12A022F7D00528C9A /* Preview Assets.xcassets in Resources */,
+				EB1DA9DE2A022F7D00528C9A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB1DA9C02A022F7B00528C9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB1DA9CA2A022F7B00528C9A /* ContentView.swift in Sources */,
+				EB1DA9C82A022F7B00528C9A /* HandyGPTApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB1DA9D02A022F7C00528C9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB3218D52A056A0A0048A864 /* DefaultBackground.swift in Sources */,
+				EB1DA9DC2A022F7C00528C9A /* ContentView.swift in Sources */,
+				EB1DA9DA2A022F7C00528C9A /* HandyGPTApp.swift in Sources */,
+				EB6D11CB2A057731007CEA16 /* String+DateFormatter.swift in Sources */,
+				EB1DA9EF2A02379A00528C9A /* config.swift in Sources */,
+				EB1DA9ED2A02378E00528C9A /* ChatBot.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB1DA9D72A022F7C00528C9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB1DA9D32A022F7C00528C9A /* HandyGPT Watch App */;
+			targetProxy = EB1DA9D62A022F7C00528C9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EB1DA9E22A022F7D00528C9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB1DA9E32A022F7D00528C9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		EB1DA9E52A022F7D00528C9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HandyGPT Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = FY8N9XTH66;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = HandyGPT;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.duno.HandyGPT;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.duno.HandyGPT.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		EB1DA9E62A022F7D00528C9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HandyGPT Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = FY8N9XTH66;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = HandyGPT;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.duno.HandyGPT;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.duno.HandyGPT.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		EB1DA9E92A022F7D00528C9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HandyGPT/Preview Content\"";
+				DEVELOPMENT_TEAM = FY8N9XTH66;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HandyGPT/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HandyGPT;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.duno.HandyGPT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB1DA9EA2A022F7D00528C9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HandyGPT/Preview Content\"";
+				DEVELOPMENT_TEAM = FY8N9XTH66;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HandyGPT/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HandyGPT;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.duno.HandyGPT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB1DA9BF2A022F7B00528C9A /* Build configuration list for PBXProject "HandyGPT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB1DA9E22A022F7D00528C9A /* Debug */,
+				EB1DA9E32A022F7D00528C9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB1DA9E42A022F7D00528C9A /* Build configuration list for PBXNativeTarget "HandyGPT Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB1DA9E52A022F7D00528C9A /* Debug */,
+				EB1DA9E62A022F7D00528C9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB1DA9E82A022F7D00528C9A /* Build configuration list for PBXNativeTarget "HandyGPT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB1DA9E92A022F7D00528C9A /* Debug */,
+				EB1DA9EA2A022F7D00528C9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB1DA9BC2A022F7B00528C9A /* Project object */;
+}
