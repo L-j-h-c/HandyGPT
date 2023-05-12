@@ -17,7 +17,8 @@ Apple Watch를 이용하여 Chat-GPT를 편하게 사용해요.
 - iPhone App에서 GPT-3.5의 API Parameter를 받아서 사용합니다.
 <img src="https://github.com/L-j-h-c/HandyGPT/assets/77208067/d6779ade-bec1-4b06-9fa9-b7b100874d30" width=200/>
 <img src="https://github.com/L-j-h-c/HandyGPT/assets/77208067/c7132039-45eb-4f26-97ed-db99e8169e4c" width=200/>
-<img src="https://github.com/L-j-h-c/HandyGPT/assets/77208067/0320b4b9-fde3-4232-9f82-8f54440e5bcc" width=200/>
+<img src="https://github.com/L-j-h-c/HandyGPT/assets/77208067/0320b4b9-fde3-4232-9f82-8f54440e5bcc" width=200/> <br>
+
 - Watch App을 사용하면, 단축어 및 Hand Gesture를 이용하여 GPT-3.5를 편리하게 이용할 수 있습니다.
 
 ---
